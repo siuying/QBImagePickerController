@@ -80,9 +80,6 @@
         
         [self setWantsFullScreenLayout:YES];
     }
-    
-    // Scroll to bottom
-    [self.tableView setContentOffset:CGPointMake(0, self.tableView.contentSize.height) animated:NO];
 }
 
 - (void)viewDidAppear:(BOOL)animated
